@@ -1,0 +1,7 @@
+button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.contact:hover, :focus {
+    color: #2196F3;
+}
