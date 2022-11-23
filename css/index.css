@@ -1,0 +1,40 @@
+.page-content {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+.filter:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.contact:hover, :focus {
+    color: #2196F3;
+}
+.order {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.sections {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.describe {
+    font-size: 14px;
+    color: #757575;
+}
+h1 {
+    font-size: 44px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+}
