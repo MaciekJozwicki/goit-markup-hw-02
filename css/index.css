@@ -7,12 +7,14 @@
     background-color: #2196F3;
     cursor: pointer;
 }
-.contact:hover, :focus {
+.contact:hover, .contact:focus {
     color: #2196F3;
+    line-height: 1.7;
 }
 .order {
     color: #FFFFFF;
     background-color: #2196F3;
+    line-height: 1.88;
 }
 .sections {
     font-family: 'Roboto', sans-serif;
@@ -22,19 +24,27 @@
 .describe {
     font-size: 14px;
     color: #757575;
+    line-height: 1.7;
 }
-h1 {
-    font-size: 44px;
-}
-h2 {
+.nav-logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: bold;
 }
+
+h1 {
+    font-size: 44px;
+    line-height: 1.36;
+}
+
 h3 {
+    font-size: 16px;
+}
+h4 {
     font-size: 14px;
     font-weight: bold;
 }
 p {
     font-size: 16px;
+    color: #757575;
 }

@@ -9,6 +9,7 @@
 }
 .contact:hover, :focus {
     color: #2196F3;
+    line-height: 1.7;
 }
 h2 {
     font-family: 'Raleway', sans-serif;
