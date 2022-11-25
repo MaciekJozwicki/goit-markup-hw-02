@@ -72,3 +72,8 @@
 .hero-button-content {
     color: #FFFFFF;
 }
+.filter-button:hover, .filter-button:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
