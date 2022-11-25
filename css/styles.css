@@ -1,0 +1,74 @@
+.page-content {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+/*.navigation-links .link {
+}
+*/
+.navigation-links .link:hover, .link:focus {
+    color:#2196F3;
+    cursor: pointer;
+}
+.navigation-contact .contact {
+    color: #757575;
+}
+.navigation-contact .contact:hover, .contact:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-adress {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF
+}
+.footer-adress-contact {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255%,255%,255%,60%);
+}
+.team-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+.team-name {
+    font-size: 16px;
+}
+.team-job {
+    color: #757575;
+    font-size: 16px;
+}
+.what-we-do-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+.example-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+.example-content {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-header {
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+}
+.hero-button {
+    background-color: #2196F3;
+}
+.hero-button-content {
+    color: #FFFFFF;
+}
