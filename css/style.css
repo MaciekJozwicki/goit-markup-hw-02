@@ -1,0 +1,105 @@
+:root {
+    --color-text: #757575;
+    --color-logo: #2196F3;
+    --color-background: #2F303A; 
+    --color-header: #212121;
+    --color-logohead: #000000;
+    --color-logofoot: #FFFFFF;
+
+
+}
+.page-content {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-header);
+}
+.logo {
+    color: var(--color-logo);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo-header {
+    color: var(--color-logohead);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+.logo-footer {
+    color: var(--color-logofoot);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+.link {
+    text-decoration: none;
+}
+.link:hover, .link:focus {
+    color: var(--color-logo);
+    cursor: pointer;
+}
+.contact {
+    color: var(--color-text);
+    text-decoration: none;
+}
+.contact:hover, .contact:focus {
+    color: var(--color-logo);
+    cursor: pointer;
+}
+.footer {
+    background-color: var(--color-background);
+}
+.footer-adress {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+.footer-adress-contact {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255%,255%,255%,60%);
+    text-decoration: none;
+}
+.team-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+.team-name {
+    font-size: 16px;
+}
+.team-job {
+    color: var(--color-text);
+    font-size: 16px;
+}
+.what-we-do-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+.example-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+.example-content {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+.hero {
+    background-color: var(--color-background);
+}
+.hero-header {
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+}
+.hero-button {
+    background-color: var(--color-logo);
+}
+.hero-button-content {
+    color: #FFFFFF;
+}
+.filter-button:hover, .filter-button:focus{
+    background-color: var(--color-logo);
+    color: #FFFFFF;
+    cursor: pointer;
+}
