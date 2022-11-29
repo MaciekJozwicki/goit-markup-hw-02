@@ -2,15 +2,21 @@
     --color-text: #757575;
     --color-logo: #2196F3;
     --color-background: #2F303A; 
-    --color-header: #212121;
+    --color-grey21: #212121;
     --color-logohead: #000000;
-    --color-logofoot: #FFFFFF;
+    --color-whiteF5: #F5F4FA;
+    --color-white: #FFFFFF;
+    --color-footcontct: rgba(255%,255%,255%,60%);
 
 
 }
+
+ul {
+    list-style-type: none;
+}
 .page-content {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-header);
+    color: var(--color-grey21);
 }
 .logo {
     color: var(--color-logo);
@@ -18,6 +24,7 @@
     font-size: 26px;
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo-header {
     color: var(--color-logohead);
@@ -26,13 +33,15 @@
     font-weight: bold;
 }
 .logo-footer {
-    color: var(--color-logofoot);
+    color: var(--color-white);
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: bold;
 }
 .link {
     text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--color-grey21);
 }
 .link:hover, .link:focus {
     color: var(--color-logo);
@@ -41,6 +50,7 @@
 .contact {
     color: var(--color-text);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .contact:hover, .contact:focus {
     color: var(--color-logo);
@@ -52,24 +62,35 @@
 .footer-adress {
     font-size: 14px;
     line-height: 1.7;
-    color: #FFFFFF;
+    color: var(--color-white);
+    text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .footer-adress-contact {
     font-size: 14px;
     line-height: 1.7;
-    color: rgba(255%,255%,255%,60%);
+    color: var(--color-footcontct);
     text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.team {
+    background-color: var(--color-whiteF5);
 }
 .team-header {
     font-size: 36px;
     font-weight: bold;
+    letter-spacing: 0.03em;
 }
 .team-name {
     font-size: 16px;
+    font-weight: medium;
+    letter-spacing: 0.03em;
+
 }
 .team-job {
     color: var(--color-text);
     font-size: 16px;
+    letter-spacing: 0.03em;
 }
 .what-we-do-header {
     font-size: 36px;
@@ -78,10 +99,12 @@
 .example-header {
     font-size: 14px;
     font-weight: bold;
+    letter-spacing: 0.03em;
 }
 .example-content {
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--color-text);
 }
 .hero {
@@ -90,16 +113,37 @@
 .hero-header {
     font-size: 44px;
     line-height: 1.36;
-    color: #FFFFFF;
+    color: var(--color-white);
+    font-weight: black;
+    letter-spacing: 0.06em;
 }
 .hero-button {
     background-color: var(--color-logo);
+    letter-spacing: 0.06em;
+    font-weight: bold;
 }
 .hero-button-content {
-    color: #FFFFFF;
+    color: var(--color-white)
 }
 .filter-button:hover, .filter-button:focus{
     background-color: var(--color-logo);
-    color: #FFFFFF;
+    color: var(--color-white)
     cursor: pointer;
+}
+.filter-button {
+    background-color: var(--color-whiteF5);
+    color: var(--color-grey21);
+}
+figcaption h3 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    color: var(--color-grey21);
+}
+figcaption p {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03;
+    color: var(--color-text);
 }
