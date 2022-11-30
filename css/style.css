@@ -66,6 +66,9 @@ ul {
     text-decoration: none;
     letter-spacing: 0.03em;
 }
+.footer-adress:hover, .footer-adress:focus {
+    color: var(--color-logo);
+}
 .footer-adress-contact {
     font-size: 14px;
     line-height: 1.7;
@@ -122,13 +125,28 @@ ul {
     letter-spacing: 0.06em;
     font-weight: bold;
 }
+.hero-button:hover {
+    cursor: pointer;
+}
 .hero-button-content {
     color: var(--color-white)
 }
-.filter-button:hover, .filter-button:focus{
+.filter-button {
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.filter-button:hover {
+    cursor: pointer;
+}
+.filter-button:hover {
     background-color: var(--color-logo);
     color: var(--color-white)
     cursor: pointer;
+}
+.filter-button:focus {
+    background-color:var(--color-logo) ;
+    color: var(--color-white);
 }
 .filter-button {
     background-color: var(--color-whiteF5);
